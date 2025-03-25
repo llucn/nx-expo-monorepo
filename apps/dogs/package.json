@@ -40,7 +40,10 @@
   },
   "scripts": {
     "eas-build-pre-install": "cd ../../ && node tools/scripts/nx-eas-build-pre-install.mjs . apps/dogs && cp package-lock.json apps/dogs",
-    "eas-build-post-install": "cd ../../ && node tools/scripts/nx-eas-build-post-install.mjs . apps/dogs"
+    "eas-build-post-install": "cd ../../ && node tools/scripts/nx-eas-build-post-install.mjs . apps/dogs",
+    "start": "nx start --dev-client",
+    "android": "nx run-android",
+    "ios": "nx run-ios"
   },
   "devDependencies": {
     "@config-plugins/detox": "*",

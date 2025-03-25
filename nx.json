@@ -89,8 +89,7 @@
         "buildTargetName": "build",
         "submitTargetName": "submit"
       }
-    },
-    "@nx/storybook/plugin"
+    }
   ],
   "tasksRunnerOptions": {
     "default": {
